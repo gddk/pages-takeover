@@ -1,0 +1,21 @@
+title: POC Github Pages Take-Over
+description: POC Github Pages Take-Over
+theme: minima
+plugins:
+  - jekyll-readme-index
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+exclude:
+  - .git
+  - .github
+  - .gitignore
+  - _config.yml
+  - _includes
+  - _site
+  - Gemfile
+  - Gemfile.lock
+
+readme_index:
+  with_frontmatter: true
